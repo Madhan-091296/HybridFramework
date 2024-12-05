@@ -1,0 +1,80 @@
+12/03/2024  08:21:53 AM: INFO: ****test_001_AccountRegistration started****
+12/03/2024  08:21:53 AM: INFO: ****Launching Application****
+12/03/2024  08:21:54 AM: INFO: ****Click on MyAccount ==> Register****
+12/03/2024  08:21:56 AM: INFO: ****Account Registration is Passed****
+12/03/2024  08:23:05 AM: INFO: ****test_001_AccountRegistration started****
+12/03/2024  08:23:06 AM: INFO: ****Launching Application****
+12/03/2024  08:23:06 AM: INFO: ****Click on MyAccount ==> Register****
+12/03/2024  08:23:09 AM: INFO: ****Account Registration is Passed****
+12/03/2024  08:26:49 AM: INFO: ****test_001_AccountRegistration started****
+12/03/2024  08:26:50 AM: INFO: ****Launching Application****
+12/03/2024  08:26:51 AM: INFO: ****Click on MyAccount ==> Register****
+12/03/2024  08:26:53 AM: INFO: ****Account Registration is Passed****
+12/03/2024  08:27:20 AM: INFO: ****test_001_AccountRegistration started****
+12/03/2024  08:27:21 AM: INFO: ****Launching Application****
+12/03/2024  08:27:21 AM: INFO: ****Click on MyAccount ==> Register****
+12/03/2024  08:27:23 AM: INFO: ****Account Registration is Passed****
+12/03/2024  08:28:12 AM: INFO: ****test_001_AccountRegistration started****
+12/03/2024  08:28:13 AM: INFO: ****Launching Application****
+12/03/2024  08:28:13 AM: INFO: ****Click on MyAccount ==> Register****
+12/03/2024  08:28:15 AM: INFO: ****Account Registration is Passed****
+12/03/2024  08:28:45 AM: INFO: ****test_001_AccountRegistration started****
+12/03/2024  08:28:46 AM: INFO: ****Launching Application****
+12/03/2024  08:28:47 AM: INFO: ****Click on MyAccount ==> Register****
+12/03/2024  08:28:49 AM: INFO: ****Account Registration is Passed****
+12/03/2024  08:30:15 AM: INFO: ****test_001_AccountRegistration started****
+12/03/2024  08:30:16 AM: INFO: ****Launching Application****
+12/03/2024  08:30:16 AM: INFO: ****Click on MyAccount ==> Register****
+12/03/2024  08:30:19 AM: INFO: ****Account Registration is Passed****
+12/03/2024  08:35:37 AM: INFO: ****test_001_AccountRegistration started****
+12/03/2024  08:35:39 AM: INFO: ****Launching Application****
+12/03/2024  08:35:39 AM: INFO: ****Click on MyAccount ==> Register****
+12/03/2024  08:35:41 AM: INFO: ****Account Registration is Passed****
+12/03/2024  08:36:15 AM: INFO: ****test_001_AccountRegistration started****
+12/03/2024  08:36:16 AM: INFO: ****Launching Application****
+12/03/2024  08:36:16 AM: INFO: ****Click on MyAccount ==> Register****
+12/03/2024  08:36:18 AM: INFO: ****Account Registration is Passed****
+12/04/2024  08:22:58 AM: INFO: ******* Starting test_002_login **********
+12/04/2024  08:23:00 AM: INFO: ******* End of test_002_login **********
+12/04/2024  08:23:47 AM: INFO: ****test_001_AccountRegistration started****
+12/04/2024  08:23:47 AM: INFO: ****test_001_AccountRegistration started****
+12/04/2024  08:23:48 AM: INFO: ****Launching Application****
+12/04/2024  08:23:48 AM: INFO: ****Launching Application****
+12/04/2024  08:23:48 AM: INFO: ****Click on MyAccount ==> Register****
+12/04/2024  08:23:48 AM: INFO: ****Click on MyAccount ==> Register****
+12/04/2024  08:23:50 AM: INFO: ****Account Registration is Passed****
+12/04/2024  08:23:50 AM: INFO: ****Account Registration is Passed****
+12/04/2024  08:23:54 AM: INFO: ******* Starting test_002_login **********
+12/04/2024  08:23:54 AM: INFO: ******* Starting test_002_login **********
+12/04/2024  08:23:56 AM: INFO: ******* End of test_002_login **********
+12/04/2024  08:23:56 AM: INFO: ******* End of test_002_login **********
+12/04/2024  09:01:28 AM: INFO: ****Starting of Data Driven Test Case****
+12/04/2024  09:05:27 AM: INFO: ****Starting of Data Driven Test Case****
+12/04/2024  09:10:54 AM: INFO: ****Starting of Data Driven Test Case****
+12/04/2024  09:11:42 AM: INFO: ******* End of test_003_login_Datadriven **********
+12/04/2024  09:15:07 AM: INFO: ****Starting of Data Driven Test Case****
+12/04/2024  09:15:55 AM: INFO: ******* End of test_003_login_Datadriven **********
+12/04/2024  09:21:16 AM: INFO: ******* Starting test_002_login **********
+12/04/2024  09:21:16 AM: INFO: ******* Starting test_002_login **********
+12/04/2024  09:21:16 AM: INFO: ******* Starting test_002_login **********
+12/04/2024  09:21:19 AM: INFO: ******* End of test_002_login **********
+12/04/2024  09:21:19 AM: INFO: ******* End of test_002_login **********
+12/04/2024  09:21:19 AM: INFO: ******* End of test_002_login **********
+12/04/2024  09:21:23 AM: INFO: ****Starting of Data Driven Test Case****
+12/04/2024  09:21:23 AM: INFO: ****Starting of Data Driven Test Case****
+12/04/2024  09:21:23 AM: INFO: ****Starting of Data Driven Test Case****
+12/04/2024  09:22:11 AM: INFO: ******* End of test_003_login_Datadriven **********
+12/04/2024  09:22:11 AM: INFO: ******* End of test_003_login_Datadriven **********
+12/04/2024  09:22:11 AM: INFO: ******* End of test_003_login_Datadriven **********
+12/05/2024  08:13:42 AM: INFO: ******* Starting test_002_login **********
+12/05/2024  08:13:42 AM: INFO: ******* Starting test_002_login **********
+12/05/2024  08:13:42 AM: INFO: ******* Starting test_002_login **********
+12/05/2024  08:13:45 AM: INFO: ******* End of test_002_login **********
+12/05/2024  08:13:45 AM: INFO: ******* End of test_002_login **********
+12/05/2024  08:13:45 AM: INFO: ******* End of test_002_login **********
+12/05/2024  08:13:49 AM: INFO: ****Starting of Data Driven Test Case****
+12/05/2024  08:13:49 AM: INFO: ****Starting of Data Driven Test Case****
+12/05/2024  08:13:49 AM: INFO: ****Starting of Data Driven Test Case****
+12/05/2024  08:14:37 AM: INFO: ******* End of test_003_login_Datadriven **********
+12/05/2024  08:14:37 AM: INFO: ******* End of test_003_login_Datadriven **********
+12/05/2024  08:14:37 AM: INFO: ******* End of test_003_login_Datadriven **********
