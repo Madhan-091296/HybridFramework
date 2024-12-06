@@ -95,8 +95,8 @@ def pytest_addoption(parser):
 # Get value from command Line
 @pytest.fixture()
 def browser_platform(request):
-   parser.addoption("--browser", default="chrome", choices=["chrome", "edge", "firefox"], help="Browser to test")
-   parser.addoption("--os", default="linux", choices=["windows", "mac", "linux"], help="Operating system to test")
+   browser = request.config.getoption("--browser")
+   platform = request.config.getoption("--os")
    return browser,platform
 
 # It is hook for Adding Environment info to HTML Report
