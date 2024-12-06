@@ -45,7 +45,7 @@ def setup(browser_platform):
 # Hook to add command-line options for browser and OS
 def pytest_addoption(parser):
    parser.addoption("--browser", default="chrome", choices=["chrome", "edge", "firefox"], help = "Browser to test")
-   parser.addoption("--os", default="windows", choices=["windows", "mac", "linux"], help = "Operating system to test")
+   parser.addoption("--os", default="linux", choices=["windows", "mac", "linux"], help = "Operating system to test")
 # Get value from command Line
 @pytest.fixture()
 def browser_platform(request):
