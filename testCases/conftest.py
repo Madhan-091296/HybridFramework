@@ -45,7 +45,7 @@ def setup(browser_platform):
 
 def pytest_addoption(parser):    # This will get the value from CLI /hooks
    parser.addoption("--browser", default="chrome", choices=["chrome", "edge", "firefox"], help="Browser to test")
-   parser.addoption("--os", default="windows", choices=["windows", "mac", "linux"], help="Operating system to test")
+   parser.addoption("--os", default="linux", choices=["windows", "mac", "linux"], help="Operating system to test")
 @pytest.fixture()
 def browser_platform(request):  # This will return the Browser value to setup method
    browser = request.config.getoption("--browser")
