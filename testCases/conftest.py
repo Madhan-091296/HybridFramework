@@ -4,6 +4,7 @@ from pytest_metadata.plugin import metadata_key
 from selenium import webdriver
 from datetime import datetime
 from utilities.readProperties import ReadConfig
+
 @pytest.fixture()
 def setup(browser_platform):
    baseenv = ReadConfig.getEnvironment()
