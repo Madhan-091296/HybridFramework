@@ -1,9 +1,36 @@
 import os
+import requests
+import time
+import subprocess
 import pytest
 from pytest_metadata.plugin import metadata_key
 from selenium import webdriver
 from datetime import datetime
 from utilities.readProperties import ReadConfig
+
+def wait_for_grid(url="http://localhost:4444/wd/hub", timeout=60):
+   """
+   Waits for the Selenium Grid to become ready.
+   """
+   start_time = time.time()
+   while time.time() - start_time < timeout:
+       try:
+           response = requests.get(url + "/status")
+           if response.status_code == 200 and response.json()["value"]["ready"]:
+               return True
+       except Exception:
+           pass
+       time.sleep(1)
+   raise Exception("Selenium Grid did not become ready in time")
+
+@pytest.fixture(scope="session",autouse=True)
+def setup_environment():
+   subprocess.run(["pip","install","-r","requirements.txt"],check=True)
+   subprocess.run(["docker-compose","up","-d"],check=True)
+   wait_for_grid()
+   yield
+   subprocess.run(["docker-compose", "down"], check=True)
+
 
 @pytest.fixture()
 def setup(browser_platform):
